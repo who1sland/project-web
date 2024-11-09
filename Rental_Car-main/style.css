@@ -1,0 +1,390 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Mengatur gaya untuk navbar */
+.navbar {
+    background-color: #090909;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    text-align: left;
+}
+
+.navbar-brand img {
+    filter: invert(1);
+}
+
+/* Mengatur hero section */
+.hero-section {
+    background: url('assets/kumpulan\ gambar\ mobil\ untuk\ penyewaan.png') no-repeat center center/cover;
+    height: 80vh;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Minimum Cost Section */
+.minimum-cost-section {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.minimum-cost-section h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.minimum-cost-section .feature-icon {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 1rem;
+    color: #ff6600;
+}
+
+.minimum-cost-section p {
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+.btn-orange {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-orange:hover {
+    background-color: #e65c00;
+}
+
+/* Car List Section */
+.car-list-section {
+    background-color: #f9f9f9;
+}
+
+.car-list-section h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Car Card Styling */
+.car-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.car-card img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.car-card h5 {
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.car-card p {
+    color: #666;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.car-card .price {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Pagination Styling */
+.pagination .page-item .page-link {
+    color: #ff6600;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    color: #fff;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Button Styling */
+.btn-orange {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-orange:hover {
+    background-color: #e65c00;
+}
+
+/* Flexibility Section Styling */
+.flexibility-section .text-section h2 {
+    font-weight: bold;
+    color: #333;
+    
+}
+
+.flexibility-section .text-section p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Card Styling */
+.car-option-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.car-option-card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.car-option-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Overlay Text on Images */
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.9rem;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 20px;
+    color: #ff5a00;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.upload-box {
+    border: 1px dashed #ff5a00;
+    padding: 20px;
+    text-align: center;
+    color: #888;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-box span {
+    color: #ff5a00;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5a00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #e04a00;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    border-top: 2px solid #ff5a00;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.icon {
+    color: #ff5a00;
+    margin-right: 5px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ff5a00;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #ff5a00;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #999;
+}
+
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex; /* Sembunyikan tombol secara default */
+    background-color: #ff5a00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: opacity 0.3s;
+  }
+  
+  #backToTop:hover {
+    background-color: #9e3903;
+  }
+  
+
+  .form-group {
+    margin-bottom: 15px;
+}
+.upload-box {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.upload-box span {
+    color: #ff5a00;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #ff5a00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
